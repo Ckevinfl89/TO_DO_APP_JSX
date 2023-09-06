@@ -17,7 +17,7 @@ export default function PostForm({ handleChange, handleSubmit, newPost }: PostFo
         <Form onSubmit={handleSubmit}>
             <Form.Label>ToDo</Form.Label>
             <Form.Control name='title' onChange={handleChange} value={newPost.title} />
-            <Button className='mt-3 w-100' variant='warning' type='submit'>+ New ToDo</Button>
+            <Button className='mt-3 w-100' variant='danger' type='submit'>To Do List</Button>
         </Form>
     )
 }

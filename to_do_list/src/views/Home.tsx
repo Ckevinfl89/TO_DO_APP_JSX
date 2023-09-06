@@ -12,7 +12,7 @@ type HomeProps = {
 }
 
 export default function Home({ isLoggedIn }: HomeProps) {
-    const name:string = 'Kevin';
+    const name:string = 'Christian';
     const [posts, setPosts] = useState<Post[]>([]);
     const [newPost, setNewPost] = useState<Post>({id: 1, title: ''})
 
